@@ -10,6 +10,27 @@
 
 /* header */
 
+nav a{
+    float: right;
+    text-decoration: none;
+    font-family: "raleway", sans-serif;
+    Padding-top: 30px;
+    color: var(--blue);
+    margin-right: 40px;
+}
+
+h1{
+    float: left;
+    padding-left: 40px;
+    padding-top: 30px;
+    font-family: "raleway" , sans-serif;
+    color: var(--blue);
+}
+
+nav a:active {
+    border-top: 2px solid var(--blue);
+}
+
 /* search bar */
 
 /* accomodation section */
