@@ -6,6 +6,7 @@
     --blue: #0065fc;
     --lightblue: #deebff;
     --grey: #f2f2f2;
+    --darkgrey: #6d6969;
 }
 
 /* header */
@@ -15,7 +16,7 @@ nav a{
     text-decoration: none;
     font-family: "raleway", sans-serif;
     Padding-top: 30px;
-    color: var(--blue);
+    color: var(--darkgrey);
     margin-right: 40px;
 }
 
@@ -27,8 +28,9 @@ h1{
     color: var(--blue);
 }
 
-nav a:active {
+nav a:hover {
     border-top: 2px solid var(--blue);
+    color: var(--blue)
 }
 
 /* search bar */
