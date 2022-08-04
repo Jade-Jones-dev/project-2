@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
 
 /* set initial color */
 :root{
     --blue: #0065fc;
     --lightblue: #deebff;
     --grey: #f2f2f2;
-    --darkgrey: #6d6969;
+    --black: #000;
 }
 
 /* header */
@@ -16,7 +16,7 @@ nav a{
     text-decoration: none;
     font-family: "raleway", sans-serif;
     Padding-top: 30px;
-    color: var(--darkgrey);
+    color: var(--black);
     margin-right: 40px;
 }
 
@@ -33,9 +33,31 @@ nav a:hover {
     color: var(--blue)
 }
 
+header h1{
+  color: var(--blue);
+  font-family: 'Rancho', cursive;
+  font-size: 26px;
+}
+
 /* search bar */
 
 /* accomodation section */
+
+.accom-card1{
+    height:250px;
+    width: 200px;  
+}
+
+.accom-card1 img{
+    height:100px;
+    width:200px;
+    border-radius: 20px 20px 0px 0px;  
+}
+
+.card-text{
+    padding-left: 10px;
+    line-height: 18pt;
+}
 
 /* card */
 
@@ -47,10 +69,24 @@ nav a:hover {
 
 
 /* footer */
-/* font */
+
+.footer-container{
+    background-color: var(--grey);
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content:space-between;
+    padding: 30px;
+    line-height: 22pt;
+}
+ 
+h3{
+    font-weight:bold;
+    font-family: 'Raleway', sans-serif;
+}
 
 p{
-    color: var(--blue);
+    color: var(--black);
     font-family: 'Raleway', sans-serif;
 
 }
