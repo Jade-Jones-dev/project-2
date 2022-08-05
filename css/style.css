@@ -11,12 +11,16 @@
 
 /* header */
 
+header{
+    height: 130px;
+}
+
 nav a{
     float: right;
     text-decoration: none;
     font-family: "raleway", sans-serif;
     Padding-top: 30px;
-    color: var(--black);
+    color: var(--blackff);
     margin-right: 40px;
 }
 
@@ -43,12 +47,29 @@ header h1{
 
 /* accomodation section */
 
-.accom-card1{
-    height:250px;
-    width: 200px;  
+.accom{
+    width: 70%;
+    background-color: var(--grey);
+    height: 450px;
+    padding:20px;
+    margin-bottom: 30px;
 }
 
-.accom-card1 img{
+.accom-title{
+    padding-bottom: 20px;
+    padding: left 5px;px;
+}
+
+
+/* card */
+
+.accom-card{
+    height:180px;
+    width: 200px; 
+    background-color: #fff; 
+}
+
+.accom-card img{
     height:100px;
     width:200px;
     border-radius: 20px 20px 0px 0px;  
@@ -59,7 +80,7 @@ header h1{
     line-height: 18pt;
 }
 
-/* card */
+
 
 /* most popular */
 
