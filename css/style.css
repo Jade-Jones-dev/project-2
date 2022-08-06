@@ -47,11 +47,12 @@ header h1{
 
 /* accomodation section */
 
+
 .accom{
     width: 70%;
     background-color: var(--grey);
-    height: 450px;
-    padding:20px;
+
+    padding: 40px 20px 40px 20px;
     margin-bottom: 30px;
     float: left;
     margin-left:20px;
@@ -62,18 +63,21 @@ header h1{
 }
 
 .accom-title{
-    padding-bottom: 20px;
     padding: left 5px;
+    position: absolute;
+    left: 60px;
+    top: 150px;
 }
 
 
 /* card */
 
 .accom-card{
+    margin-top: 10px;
     height:180px;
     width: 200px; 
     background-color: #fff; 
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .accom-card img{
