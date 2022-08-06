@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
 
-/* set initial color */
+/* set initial styles */
 :root{
     --blue: #0065fc;
     --lightblue: #deebff;
     --grey: #f2f2f2;
     --black: #000;
+    padding-left: 26px;
+    padding-right: 26px;
 }
 
 /* header */
