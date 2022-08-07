@@ -49,6 +49,8 @@ header h1{
 
 /* accomodation section */
 
+/* need to replace the classes on this section and try flex box on text */
+
 .accom-section{width: 60%;
     background-color: var(--grey);
     padding: 20px;
