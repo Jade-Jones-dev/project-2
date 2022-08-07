@@ -51,7 +51,7 @@ header h1{
 
 /* need to replace the classes on this section and try flex box on text */
 
-.accom-section{width: 60%;
+.accom-section{width: 70%;
     background-color: var(--grey);
     padding: 20px;
     margin-bottom: 30px;
@@ -60,10 +60,13 @@ header h1{
     border-radius: 10px;
     display: flex;
     flex-wrap: wrap;
+    align-content: space-around;
    
 
 
 }
+
+/*
 .accom{
     display: flex;
     justify-content: space-between;
@@ -73,34 +76,38 @@ header h1{
     display: flex;
     justify-content: center;
 }
-/*
+/*/*
 .accom-title{
-    padding: left 5px;
-    position: absolute;
-    left: 60px;
-    top: 150px;
+   margin-bottom: 40px;
+    align-self: flex-start;
+    justify-self: flex-start;
+
 }
-*/
+
 .accom-bottom {
-    margin-top:20px;
+    margin: top 40px;
+    align-self: flex-start;
+    justify-self: flex-end;
 }
 
 
 /* card */
 
 .accom-card{
-    margin-top: 10px;
+    margin-top: 40px;
     height:180px;
-    width: 200px; 
+    width: 250px; 
     background-color: #fff; 
     border-radius: 20px 20px 20px 20px;
+    margin-left:40px;
+
 }
 
 .accom-card img{
     height:90px;
     margin-top: 5px;
     margin-left: 5px;
-    width:190px;
+    width:240px;
     border-radius: 20px 20px 0px 0px;  
 }
 
