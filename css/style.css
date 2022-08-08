@@ -92,7 +92,7 @@ h2{
 .accom-card{
     
     margin-top: 40px;
-    height:180px;
+    height:200px;
     width: 250px; 
     background-color: #fff; 
     border-radius: 20px 20px 20px 20px;
@@ -103,7 +103,7 @@ h2{
 }
 
 .accom-card img{
-    height:90px;
+    height:100px;
     object-fit: cover;
     margin-top: 5px;
     margin-left: 5px;
@@ -128,18 +128,27 @@ h2{
     margin-right: 20px;
     border-radius: 10px;
     padding:20px;
-    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
 }
+/* Need to work on alignment of text and star maybe block?? */
 
-#star{
-    float:right;
-    padding-top:0;
-    margin-right: 20px;
+#star1{
+    align-self: flex-end;
+    justify-content: flex-end;
+    margin-top: 0;
+    padding-top: 0;
+    
 }
 
 .popular-title{
-    float: left;
-    margin-left: 20px;
+    align-self: flex-start;
+    justify-self: flex-start;
+    padding: 0;
+    margin: 0;
+
 }
 
 .popular-card {
@@ -188,6 +197,8 @@ h2{
 }
 
 /* Activities section */
+
+/* need to work on title of section alignment */
 .gallery{
     margin-bottom: 40px;
     display: flex;
@@ -198,7 +209,8 @@ h2{
 
 #activity{
     margin-left: 24px;
-  
+    padding-top: 20px;
+    align-self: ;
 }
 
 
