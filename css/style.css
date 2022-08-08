@@ -107,6 +107,7 @@ h2{
     object-fit: cover;
     margin-top: 5px;
     margin-left: 5px;
+    margin-right: 5px;
     width:240px;
     border-radius: 20px 20px 0px 0px;  
 }
@@ -186,7 +187,118 @@ h2{
     object-fit: cover;
 }
 
-/* image card */
+/* Activities section */
+.gallery{
+    margin-bottom: 40px;
+    display: flex;
+    width: 100%;
+
+}
+
+#activity{
+    margin-left: 24px;
+  
+}
+
+
+/* Activities card */
+
+.activity-card {
+
+    margin-top: 20px;
+    height: 400px;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 20px;
+    margin-right: 30px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+
+}
+
+.activity-card img {
+    height:340px;
+    object-fit: cover;
+   
+    width: 250px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.activity-card-text {
+   padding-top: 15px;
+   text-align:left;
+
+}
+
+.section2{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.section4 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.activity-card1 {
+
+    margin-top: 20px;
+    height: 160px;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 20px;
+    margin-right: 30px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+
+}
+
+.activity-card1 img {
+    height: 120px;
+    object-fit: cover;
+
+    width: 250px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.activity-card1-text {
+    padding-top: 15px;
+    text-align: left;
+
+}
+
+.activity-card2 {
+
+    margin-top: 20px;
+    height: 220px;
+    width: 250px;
+    background-color: #fff;
+    border-radius: 20px 20px 20px 20px;
+    margin-left: 20px;
+    margin-right: 30px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+
+}
+
+.activity-card2 img {
+    height: 170px;
+    object-fit: cover;
+
+    width: 250px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+
+.activity-card2-text {
+    padding-top: 15px;
+    text-align: left;
+
+}
 
 /* image section */
 
