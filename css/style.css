@@ -70,12 +70,10 @@ header h1{
 
 .accom2 {
     display: flex;
-    justify-content: center;
     justify-content: space-evenly;
 }
 
 .accom-title{
-   margin-bottom: 10px;
     align-self: flex-start;
     justify-self: flex-start;
 
@@ -165,6 +163,14 @@ header h1{
     padding-top: 30px;
 }
 
+#morning-sun p {
+    padding-bottom: 10px;
+}
+
+#morning-sun h3{
+    padding-bottom: 20px;
+}
+
 /* image card */
 
 /* image section */
@@ -177,9 +183,10 @@ header h1{
     display: flex;
     flex-direction: row;
     width: 100%;
-    justify-content:space-between;
+    justify-content:space-around;
     padding: 30px;
     line-height: 22pt;
+    text-align: left;
 }
  
 h3{
