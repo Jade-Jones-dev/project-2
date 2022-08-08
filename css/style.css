@@ -48,11 +48,15 @@ header h1{
 
 /* accomodation section */
 
-/* need to replace the classes on this section and try flex box on text */
+h2{
+    font-family: "raleway", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
 
 .accom-section{width: 65%;
     background-color: var(--grey);
-    padding: 20px;
+    padding: 40px;
     margin-bottom: 30px;
     float: left;
     margin-left: 20px;
@@ -80,23 +84,27 @@ header h1{
 }
 
 .accom-bottom {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 /* card */
 
 .accom-card{
+    
     margin-top: 40px;
     height:180px;
     width: 250px; 
     background-color: #fff; 
     border-radius: 20px 20px 20px 20px;
+    margin-left:30px;
+    margin-right: 30px;
     
 
 }
 
 .accom-card img{
     height:90px;
+    object-fit: cover;
     margin-top: 5px;
     margin-left: 5px;
     width:240px;
@@ -125,14 +133,16 @@ header h1{
 #star{
     float:right;
     padding-top:0;
+    margin-right: 20px;
 }
 
 .popular-title{
     float: left;
+    margin-left: 20px;
 }
 
 .popular-card {
-    margin-top: 40px;
+    margin-top: 30px;
     height: 150px;
     width: 350px;
     background-color: #fff;
@@ -144,6 +154,7 @@ header h1{
 
 .popular-card img{
    float:left;
+   
     height:140px;
     margin-top: 5px;
     margin-left: 5px;
@@ -169,6 +180,10 @@ header h1{
 
 #morning-sun h3{
     padding-bottom: 20px;
+}
+
+#morning-sun img{
+    object-fit: cover;
 }
 
 /* image card */
