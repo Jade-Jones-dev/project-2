@@ -7,8 +7,7 @@
     --lightblue: #deebff;
     --grey: #f2f2f2;
     --black: #000;
-    padding-left: 26px;
-    padding-right: 26px;
+
 }
 
 /* header */
@@ -51,7 +50,7 @@ header h1{
 
 /* need to replace the classes on this section and try flex box on text */
 
-.accom-section{width: 70%;
+.accom-section{width: 65%;
     background-color: var(--grey);
     padding: 20px;
     margin-bottom: 30px;
@@ -59,37 +58,32 @@ header h1{
     margin-left: 20px;
     border-radius: 10px;
     display: flex;
-    flex-wrap: wrap;
-    align-content: space-around;
-   
-
+    flex-direction: column;
 
 }
 
-/*
+
 .accom{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .accom2 {
     display: flex;
     justify-content: center;
+    justify-content: space-evenly;
 }
-/*/*
+
 .accom-title{
-   margin-bottom: 40px;
+   margin-bottom: 10px;
     align-self: flex-start;
     justify-self: flex-start;
 
 }
 
 .accom-bottom {
-    margin: top 40px;
-    align-self: flex-start;
-    justify-self: flex-end;
+    margin-top: 10px;
 }
-
 
 /* card */
 
@@ -99,7 +93,7 @@ header h1{
     width: 250px; 
     background-color: #fff; 
     border-radius: 20px 20px 20px 20px;
-    margin-left:40px;
+    
 
 }
 
@@ -121,13 +115,13 @@ header h1{
 /* most popular */
 
 .popular{
-    width: 25%;
-    height: 450px;
+    width: 30%;
     float: right;
     background-color: var(--grey);
     margin-right: 20px;
     border-radius: 10px;
     padding:20px;
+    margin-bottom: 30px;
 }
 
 #star{
@@ -137,6 +131,34 @@ header h1{
 
 .popular-title{
     float: left;
+}
+
+.popular-card {
+    margin-top: 40px;
+    height: 150px;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 20px 20px 20px 20px;
+    margin-left:10px;
+
+
+}
+
+.popular-card img{
+   float:left;
+    height:140px;
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 40%;
+     border-radius: 20px 00px 0px 20px;
+}
+
+.popular-card-text {
+    padding-right: 10px;
+    padding-top: 10px;
+    line-height: 18pt;
+    float: right;
+    width: 55%;
 }
 
 /* image card */
