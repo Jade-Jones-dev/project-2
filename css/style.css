@@ -205,12 +205,13 @@ h2{
     width: 100%;
    justify-content: space-around;
 
+
 }
 
 #activity{
     margin-left: 24px;
     padding-top: 20px;
-    align-self: ;
+   float: left
 }
 
 
