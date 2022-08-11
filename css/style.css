@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;1,200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rancho&display=swap');
-
 /* set initial styles */
 :root{
     --blue: #0065fc;
@@ -9,7 +8,7 @@
     --black: #000;
 
 }
-
+/*  change header to flex and rmove floats use flex on ul to make it look right add logo instead of text */
 /* header */
 
 header{
