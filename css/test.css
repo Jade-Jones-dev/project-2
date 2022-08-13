@@ -44,6 +44,32 @@ ul{
 
 }
 
+/*  accom */
+.main-container{
+    display:flex;
+    height: 500px;
+    justify-content: space-between;
+    min-width: 900px;
+    max-width: 1200px;
+    margin: auto;
+    margin-bottom:20px;
+
+}
+
+.accom-container{
+    width:65%;
+    background-color: var(--grey);
+    border-radius: 20px;
+ 
+}
+
+.popular-container{
+    width:30%;
+    background-color: var(--grey);
+    border-radius: 20px;
+
+}
+
 /* activities */
 .activities-section {
     display:flex;
@@ -53,57 +79,110 @@ ul{
     max-width: 1200px;
     margin: auto;
     height:400px;
+    margin-bottom: 40px;
 }
 
 .activities-images {
     display:flex;
     height: 340px;
     flex-direction: row;
-   
-    
+    justify-content: space-between; 
 }
 
 .image1 {
     display: flex;
     flex-direction: column;
-    width:100%;
+    width:23%;
     background-color: white;
-    border-radius: 20px 20px 0px 0px;
+    border-radius: 20px 20px 20px 20px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    margin: 20px 20px 20px 0;
-    justify-content: space-around;
-    
+    justify-content: space-evenly;   
 }
 
 .image1 img{
-    height: 260px;
+    height: 90%;
     margin-top: -10px;
     border-radius: 20px 20px 0px 0px;
-    border: 0 -20px -20px 0 ;
+    margin: -20px 0 0 0;
 }
 
 .image2{
     background-color: white;
-    width: 100%;
+    width: 23%;
     display:flex;
     flex-direction:column;
-    margin: 20px;
+    justify-content: space-between;
 }
+
+
 
 .image3{
-    width: 100%;
-    background-color: white;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    border-radius: 20px 20px 0px 0px;
-    margin: 20px;
-}
-
-.image4{
-    width: 100%;
     display: flex;
     flex-direction: column;
     background-color: white;
-    margin:20px 0 20px 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 20px 20px 20px 20px;
+    width: 23%;
+    justify-content: space-evenly;
+}
+
+.image3 img {
+    height: 90%;
+    margin-top: -10px;
+    border-radius: 20px 20px 0px 0px;
+    margin:-10px 0 0 0;
+}
+
+.image4{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width:23%;
+    justify-content: space-between;
+}
+
+#island{
+    height: 35%;
+}
+
+#island img{
+ height: 100px;
+ object-fit: cover;
+}
+
+#fort{
+    height: 55%;
+}
+
+#fort img{
+    height: 80%;
+    object-fit: cover;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 45%;
+    width:100%;
+    background-color: white;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    border-radius: 20px 20px 20px 20px;
+    
+}
+
+.card img{
+    width:auto;
+    height:130px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+    margin: -20px 0 0 0;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+
+}
+
+.activity-text{
+    padding-left: 10px;
 }
 
 /* footer */
