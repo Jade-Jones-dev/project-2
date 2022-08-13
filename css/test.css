@@ -16,6 +16,7 @@ header {
    min-width: 900px;
    max-width: 1200px;
    margin: auto;
+   padding-top: 20px;
 }
 
 .header-image{
@@ -32,15 +33,10 @@ nav a {
 
 
 nav a:hover {
-   
-    color: var(--blue)
+    color: var(--blue);
+    border-top: 3px solid var(--blue);
 }
 
-/* doesnt work on nav a hover?? */
-
-nav li:hover{
-    border-top: 2px solid var(--blue);
-}
 
 ul{
     display: flex;
@@ -55,7 +51,6 @@ footer{
 
 .footer-container {
     display: flex;
-    text-align: left;
     min-width: 900px;
     max-width: 1200px;
     margin: auto;
