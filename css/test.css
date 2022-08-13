@@ -10,7 +10,7 @@
 }
 
 header {
-    display: flex;
+   display: flex;
    justify-content: space-between;
    align-items: center;
    min-width: 900px;
@@ -32,12 +32,54 @@ nav a {
 
 
 nav a:hover {
-    border-top: 2px solid var(--blue);
+   
     color: var(--blue)
+}
+
+/* doesnt work on nav a hover?? */
+
+nav li:hover{
+    border-top: 2px solid var(--blue);
 }
 
 ul{
     display: flex;
+
+}
+
+/* footer */
+footer{
+    background-color: var(--grey);
+    width:100%;
+}
+
+.footer-container {
+    display: flex;
+    text-align: left;
+    min-width: 900px;
+    max-width: 1200px;
+    margin: auto;
+    justify-content:space-between;
+}
+
+.footer-column{
+    display: flex;
+    flex-direction:column;
+    line-height: 20pt;
+    padding: 20px;
+    width: 100%; 
+}
+
+h3 {
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+
+p {
+    color: var(--black);
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
 
 }
 
