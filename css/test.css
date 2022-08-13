@@ -58,17 +58,117 @@ ul{
 
 .accom-container{
     width:65%;
+    display: flex;
+    flex-direction: column;
     background-color: var(--grey);
     border-radius: 20px;
+    justify-content: space-evenly;
  
 }
 
-.popular-container{
+.accom-1{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height: 38%;
+    justify-content: space-evenly;
+}
+
+.accom-2 {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height:38%;
+    background-color: red;
+}
+
+.accom-container h2{
+    padding-left: 15px;
+}
+
+.accom-card{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
     width:30%;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.accom-card img{
+    height:60%;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    margin-top: -5px;
+}
+
+.accom-card h3 {
+    padding-left: 10px;
+}
+
+.accom-card p{
+    padding-left: 10px;
+}
+
+.accom-stars{
+    padding-left:10px;
+}
+
+/* popular section */
+.popular-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:33%;
     background-color: var(--grey);
     border-radius: 20px;
 
 }
+
+.heading-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:20px;
+}
+
+.heading-text i{
+    font-size: 20px;
+    color: var(--black);
+}
+
+/* popular card */
+
+.popular-card{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    width:90%;
+    height:25%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.popular-card-text{
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    width: 55%;
+    padding-left: 10px;
+}
+
+.popular-card img{
+    width:45%;
+    object-fit: cover;
+    border-radius: 20px 0px 0 20px;
+    border: white solid 4px;
+}
+
+.five-stars{
+    color: var(--blue)
+}
+
 
 /* activities */
 .activities-section {
