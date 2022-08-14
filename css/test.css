@@ -44,10 +44,86 @@ ul{
 
 }
 
+.search-container{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    min-width: 900px;
+    max-width: 1200px;
+    margin: auto;
+    justify-content: space-evenly;
+}
+
+.info{
+    display: flex;
+    width:38%;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.info i{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--blue);
+    font-weight: bolder;
+    border-radius: 50%;
+    height:40px;
+    width:40px;
+    padding:15px;
+    border: solid var(--grey) 1px;
+    margin-right: 20px;
+   
+
+  
+
+}
+
+.btn{
+
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    width: 170px;
+    height: 40px;
+    align-items: center;
+    border-radius: 30px;
+    border: solid 1px var(--grey);
+    padding-left:0;
+
+}
+
+.btn i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--blue);
+    background-color: var(--lightblue);
+    font-weight: bolder;
+    border-radius: 50%;
+    height: 45px;
+    width: 45px;
+    padding: 15px;
+    margin-right: 20px;
+}
+
+.btn h2 {
+    font-size: 15px;
+}
+
+.filters{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 65%;
+    justify-content: space-between;
+}
+
 /*  accom */
 .main-container{
     display:flex;
-    height: 500px;
+    height: 550px;
     justify-content: space-between;
     min-width: 900px;
     max-width: 1200px;
@@ -91,16 +167,17 @@ ul{
     flex-direction: column;
     background-color: white;
     width:30%;
-    border-radius: 10px;
-    justify-content: space-around;
+    border-radius: 20px;
+    justify-content: space-between;
     align-items: flex-start;
+    border: white solid 5px;
 }
 
 .accom-card img{
     height:60%;
     width: 100%;
-    border-radius: 10px 10px 0px 0px;
-    margin-top: -5px;
+    border-radius: 20px 20px 0px 0px;
+    margin: 
 }
 
 .accom-card h3 {
@@ -116,6 +193,9 @@ ul{
     font-size: 16px;
 }
 
+strong{
+    font-weight: 900;
+}
 /* popular section */
 .popular-container{
     display: flex;
@@ -131,7 +211,9 @@ ul{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding:20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top:20px;
 }
 
 .heading-text i{
@@ -283,7 +365,7 @@ ul{
 }
 
 .activity-text{
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 /* footer */
