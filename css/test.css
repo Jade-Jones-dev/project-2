@@ -13,7 +13,7 @@ header {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   min-width: 900px;
+   min-width: 992px;
    max-width: 1200px;
    margin: auto;
    padding-top: 20px;
@@ -48,7 +48,7 @@ ul{
     height: 200px;
     display: flex;
     flex-direction: column;
-    min-width: 900px;
+    min-width: 992px;
     max-width: 1200px;
     margin: auto;
     justify-content: space-evenly;
@@ -80,12 +80,14 @@ ul{
 
 }
 
+
+
 .btn{
 
     display: flex;
     flex-direction: row;
     background-color: white;
-    width: 170px;
+    width: 175px;
     height: 40px;
     align-items: center;
     border-radius: 30px;
@@ -106,10 +108,15 @@ ul{
     width: 45px;
     padding: 15px;
     margin-right: 20px;
+    font-size: 20px;
+}
+
+.btn:hover i {
+    border: 2px solid var(--blue);
 }
 
 .btn h2 {
-    font-size: 15px;
+    font-size: 14px;
 }
 
 .filters{
@@ -125,7 +132,7 @@ ul{
     display:flex;
     height: 550px;
     justify-content: space-between;
-    min-width: 900px;
+    min-width: 992px;
     max-width: 1200px;
     margin: auto;
     margin-bottom:20px;
@@ -258,7 +265,7 @@ strong{
     display:flex;
     justify-content: space-around;
     flex-direction:column;
-    min-width: 900px;
+    min-width: 992px;
     max-width: 1200px;
     margin: auto;
     height:400px;
@@ -376,7 +383,7 @@ footer{
 
 .footer-container {
     display: flex;
-    min-width: 900px;
+    min-width: 992px;
     max-width: 1200px;
     margin: auto;
     justify-content:space-between;
