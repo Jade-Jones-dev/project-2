@@ -79,7 +79,7 @@ ul{
     flex-direction: row;
     width: 100%;
     height:38%;
-    background-color: red;
+    justify-content: space-evenly;
 }
 
 .accom-container h2{
@@ -111,8 +111,9 @@ ul{
     padding-left: 10px;
 }
 
-.accom-stars{
+.accom-card .five-stars{
     padding-left:10px;
+    font-size: 16px;
 }
 
 /* popular section */
