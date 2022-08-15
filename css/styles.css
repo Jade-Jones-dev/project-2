@@ -134,12 +134,15 @@ input[type=text]{
     display: flex;
     flex-direction: row;
     background-color: white;
-    width: 175px;
+    width: 185px;
     height: 40px;
     align-items: center;
     border-radius: 30px;
     border: solid 1px var(--grey);
     padding-left:0;
+    font-family: "raleway", sans-serif;
+    font-weight: bolder;
+    font-size: 15px;
 
 }
 
@@ -170,7 +173,7 @@ input[type=text]{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 65%;
+    width: 70%;
     justify-content: space-between;
 }
 
