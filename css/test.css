@@ -287,6 +287,8 @@ strong{
     color: var(--black);
 }
 
+
+
 /* popular card */
 
 .popular-card{
@@ -315,7 +317,31 @@ strong{
 }
 
 .five-stars{
-    color: var(--blue)
+    color: var(--blue);
+}
+
+.four-stars{
+    color: var(--blue);
+    padding-left: 10px;
+}
+
+
+.four-stars i:last-child{
+    color: var(--grey);
+}
+
+.three-stars{
+    color: var(--blue);
+    padding-left: 10px;
+}
+
+.three-stars i:last-child{
+    color: var(--grey);
+    
+}
+
+.three-stars i:nth-last-child(2){
+    color:var(--grey)
 }
 
 
