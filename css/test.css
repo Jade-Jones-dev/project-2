@@ -239,6 +239,20 @@ input[type=text]{
     border: white solid 5px;
 }
 
+.accom-card a{
+    text-decoration: none;
+    padding-left:10px;
+    font-family: "raleway", sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    color: var(--black);
+
+}
+
+.accom-card a:hover{
+    color: var(--blue);
+}
+
 .accom-card img{
     height:60%;
     width: 100%;
@@ -316,8 +330,26 @@ strong{
     border: white solid 4px;
 }
 
+.popular-card a {
+    text-decoration: none;
+    font-family: "raleway", sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+    color: var(--black);
+
+}
+
+.popular-card a:hover {
+    color: var(--blue);
+}
+
 .five-stars{
     color: var(--blue);
+}
+
+.popular-card .four-stars{
+    color: var(--blue);
+    padding-left: 0;
 }
 
 .four-stars{
