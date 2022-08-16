@@ -732,6 +732,7 @@ h2{
 
     header img{
         margin-bottom: 30px;
+        margin-left: 0px;
     }
 
 
@@ -764,7 +765,8 @@ h2{
         padding-right:30px;
         text-align: left;
         align-content: space-evenly;
-        justify-content: space-around;
+        justify-content: space-evenly;
+        padding-bottom: 20px;
     }
 
     .btn{
@@ -778,12 +780,13 @@ h2{
     .filters{
         min-width: 290px;
         max-width: 768px;
-        margin: auto;
+        margin: 0;
         height: 250px;
         flex-direction: column;
         flex-wrap: wrap;
         justify-content:space-around;
         align-content: space-between;
+       
       
     }
 
@@ -868,5 +871,82 @@ h2{
         font-weight: bolder;
     }
 
+    .card {
+        width: 300px;
+        height: 200px;
+        margin-bottom: 30px;
+    }
+    
+    .card img {
+        width: auto;
+        height:70%;
+    }
+
+    .image1 {
+         width: 300px;
+         height: 200px;
+    }
+        
+    .image1 img {
+        width: auto;
+        height: 70%;
+    }
+    
+    .image3 {
+        width: 300px;
+        height: 200px;
+    }
+    
+    .image3 img {
+        width: auto;
+        height: 70%;
+    }
+
+    #fort{
+        width:300px;
+        height:200px;
+    }
+
+    #fort img{
+        width:auto;
+        height:70%;
+    }
+
+    #island{
+        width:300px;
+        height:200px;
+        margin-bottom: 0;
+    }
+
+    #island img{
+        width:auto;
+        height: 70%;
+    }
+
+    .image2{
+        align-items: space-around;
+    }
+
+    .activities-images{
+        flex-direction: column;
+        min-width: 290px;
+        max-width: 768px;
+        margin: auto;
+        height:1400px;
+    }
+
+    .activities-section{
+        min-width: 290px;
+        max-width: 768px;
+        margin: auto;
+    }
+
+
+    .footer-container{
+        flex-direction: column;
+        min-width: 290px;
+        max-width: 768px;
+        margin: auto;
+    }
 
 }
