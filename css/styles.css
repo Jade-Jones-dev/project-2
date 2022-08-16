@@ -173,9 +173,19 @@ input[type=text]{
     display: flex;
     flex-direction: row;
     align-items: center;
-    width: 70%;
-    justify-content: space-between;
+    width:70%;
+    justify-content: space-around;
 }
+
+
+
+/*  .filter-div {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     width: 40%;
+ }*/
+
 
 /*  accom */
 
@@ -215,6 +225,15 @@ input[type=text]{
 
 .accom-container h2{
     padding-left: 15px;
+}
+
+.accom-container a{
+    text-decoration: none;
+    color: var(--black);
+}
+
+.accom-container a:hover{
+    color: var(--blue);
 }
 
 .accom-card{
@@ -388,6 +407,15 @@ strong{
 .activities-section h2{
     padding-bottom: 20px;
   
+}
+
+.activities-section a {
+    text-decoration: none;
+    color: var(--black);
+}
+
+.activities-section a:hover {
+    color: var(--blue);
 }
 
 .activities-images {
@@ -574,15 +602,38 @@ h2{
         flex-direction: column;
         min-width: 769px;
         max-width: 991px;
+        width:100%;
         margin: auto;
         padding-left: 20px;
         justify-content: space-evenly;
+        text-align: center;
+    
     }
+
+    .info{
+        justify-content: center;
+        width:100%;
+    }
+
+    .search-container p{
+        text-align: center;
+    }
+
+    .search{
+        width:100%;
+        justify-content: center;
+    }
+
+    .filters {
+        width:100%;
+    }
+        
+
+
 
 /*  accom */
 
     .main-container {
-        display: flex;
         flex-direction: column-reverse;
         justify-content: center; 
         min-width: 769px;
