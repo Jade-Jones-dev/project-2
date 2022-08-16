@@ -784,10 +784,7 @@ h2{
         height: 250px;
         flex-direction: column;
         flex-wrap: wrap;
-        justify-content:space-around;
-      
-       
-      
+        justify-content:space-around;  
     }
 
     .filters h3{
@@ -799,13 +796,15 @@ h2{
     }
 
     #pets {
-            margin-right: 150px;
+        margin-right: 150px;
     }
 
     .filter-div{
         display: flex;
         flex-direction: row;
     }
+
+    /* main section */
 
     .main-container{
         min-width: 290px;
@@ -814,6 +813,8 @@ h2{
         margin: auto;
         justify-content: center;
     }
+
+    /* popular section */
 
     .popular-container{
         min-width: 290px;
@@ -835,6 +836,8 @@ h2{
         width: 90%;
     }
 
+    /* accomodation section */
+
     #Accomodations-In-Marseille{
         margin-left: 40px;
     }
@@ -854,14 +857,10 @@ h2{
         height:650px;
     }
 
-
     .accom-2{
         flex-direction: column;
         height: 650px;
         margin-bottom: 20px;
-        
-        
-
     }
 
     .accom-card{
@@ -894,6 +893,8 @@ h2{
         width: auto;
         height:70%;
     }
+
+    /* activity section */
 
     .image1 {
          width: 300px;
@@ -953,6 +954,8 @@ h2{
         max-width: 768px;
         margin: auto;
     }
+
+/* footer section */
 
 
     .footer-container{
