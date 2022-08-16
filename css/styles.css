@@ -714,5 +714,159 @@ h2{
 
 @media screen and (max-width: 768px) {
 
-    /* min width 320px max width 768px */
+    /* min width 290px max width 768px */
+
+    html, body{
+       overflow-x: hidden;
+    }
+    /* header */
+    header{
+        min-width: 290px;
+        max-width: 768px;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+        flex-direction: column;
+     
+    }
+
+    header img{
+        margin-bottom: 30px;
+    }
+
+
+    nav a {
+        border-bottom: 3px solid var(--grey);
+        padding-bottom: 10px;
+        font-size: 20px;
+        padding-right:50px;
+        padding-left: 50px;
+    }
+
+    nav a:hover {
+        color: var(--blue);
+        border-bottom: 3px solid var(--blue);
+        border-top: none;
+    }
+
+    ul {
+        margin-bottom: 40px;
+        flex-direction: row-reverse;
+    }
+
+    /* search container */
+    .search-container{
+        min-width: 290px;
+        max-width: 768px;
+        height:500px;
+        margin: auto;
+        padding-left:30px;
+        padding-right:30px;
+        text-align: left;
+        align-content: space-evenly;
+        justify-content: space-around;
+    }
+
+    .btn{
+        width:150px;
+    }
+
+    .search-container p{
+        text-align: left;
+    }
+
+    .filters{
+        min-width: 290px;
+        max-width: 768px;
+        margin: auto;
+        height: 250px;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content:space-around;
+        align-content: space-between;
+      
+    }
+
+    .filters h3{
+        text-align: left;
+    }
+
+    .filter-div{
+        display: flex;
+        flex-direction: row;
+    }
+
+   
+
+    .main-container{
+        min-width: 290px;
+        max-width: 768px;
+        width: 100%;
+        margin: auto;
+        justify-content: center;
+    }
+
+    .popular-container{
+        min-width: 290px;
+        max-width: 768px;
+        width:100%;
+        margin: auto;
+    }
+
+    .popular-cards{
+        flex-direction: column;
+        min-width: 290px;
+        max-width: 768px;
+        width: 100%;
+        margin: auto;
+        
+    }
+
+    .popular-card{
+        width: 90%;
+    }
+
+    .accom-container{
+        min-width: 290px;
+        max-width: 768px;
+        margin: auto;
+        height: fit-content;
+        align-content: space-around;
+        padding-top:20px;
+        padding-bottom: 20px;
+    }
+
+    .accom-1{
+        flex-direction: column;
+        height:550px;
+    
+    }
+
+    .accom-2{
+        flex-direction: column;
+        height: 550px;
+        
+        
+
+    }
+
+    .accom-card{
+        width: 70%;
+        height: 150px;
+    }
+
+    .accom-card img{
+        height: 55%;
+    }
+
+    .accom-card a{
+        font-size: 16px;
+    }
+
+    .accom-card p{
+        font-size:14px;
+        font-weight: bolder;
+    }
+
+
 }
