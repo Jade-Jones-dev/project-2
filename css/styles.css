@@ -785,21 +785,27 @@ h2{
         flex-direction: column;
         flex-wrap: wrap;
         justify-content:space-around;
-        align-content: space-between;
+      
        
       
     }
 
     .filters h3{
-        text-align: left;
+        padding-right:300px;
+    }
+
+    #romantic {
+        margin-right:150px;
+    }
+
+    #pets {
+            margin-right: 150px;
     }
 
     .filter-div{
         display: flex;
         flex-direction: row;
     }
-
-   
 
     .main-container{
         min-width: 290px;
@@ -827,6 +833,10 @@ h2{
 
     .popular-card{
         width: 90%;
+    }
+
+    #Accomodations-In-Marseille{
+        margin-left: 40px;
     }
 
     .accom-container{
