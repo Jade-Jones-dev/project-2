@@ -245,6 +245,7 @@ input[type=text]{
 .accom-card img{
     height:60%;
     width: 100%;
+    object-fit: cover;
     border-radius: 20px 20px 0px 0px;
 }
 
@@ -409,6 +410,7 @@ strong{
 
 .image1 img{
     height: 90%;
+    object-fit: cover;
     margin-top: -10px;
     border-radius: 20px 20px 0px 0px;
     margin: -20px 0 0 0;
@@ -436,6 +438,7 @@ strong{
 .image3 img {
     height: 90%;
     margin-top: -10px;
+    object-fit: cover;
     border-radius: 20px 20px 0px 0px;
     margin:-10px 0 0 0;
 }
@@ -482,7 +485,6 @@ strong{
 .card img{
     width:auto;
     height:130px;
-    object-fit: cover;
     border-radius: 20px 20px 0px 0px;
     margin: -20px 0 0 0;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
