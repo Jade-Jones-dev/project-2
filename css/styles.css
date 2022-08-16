@@ -834,28 +834,31 @@ h2{
         max-width: 768px;
         margin: auto;
         height: fit-content;
-        align-content: space-around;
+        align-content: space-evenly;
         padding-top:20px;
         padding-bottom: 20px;
     }
 
     .accom-1{
         flex-direction: column;
-        height:550px;
-    
+        height:650px;
     }
+
 
     .accom-2{
         flex-direction: column;
-        height: 550px;
+        height: 650px;
+        margin-bottom: 20px;
         
         
 
     }
 
     .accom-card{
-        width: 70%;
-        height: 150px;
+        width: 80%;
+        height: 200px;
+        margin-left: 40px;
+        margin-right: 20px;
     }
 
     .accom-card img{
