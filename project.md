@@ -1,5 +1,11 @@
-<!--  using flex box for logo 
-https://stackoverflow.com/questions/35163621/nav-bar-align-logo-on-left-links-on-right -->
-<!-- in header insert logo make min and max of header 900px - 1200px margin auto align items space between display flex ul list glex space between -->
-<!-- Try to use flex on styles instead of margin and padding to align items -->
-<!--  check the screenshots from session for negative margins -->
+<!-- make a container setting in css file and remove min and max on all containers -->
+
+<!-- a tag around cards, cards need to be clickable -->
+
+<!-- change ul to inline block -->
+
+<!-- put span inside of button to put log and text inside -->
+
+<!-- check video for more details -->
+
+<!-- check returned files -->
