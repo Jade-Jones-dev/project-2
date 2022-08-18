@@ -14,8 +14,6 @@ header {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   min-width: 992px;
-   max-width: 1200px;
    margin: auto;
    padding-top: 20px;
 }
@@ -48,8 +46,6 @@ ul{
     height: 280px;
     display: flex;
     flex-direction: column;
-    min-width: 992px;
-    max-width: 1200px;
     margin: auto;
     justify-content: space-evenly;
 }
@@ -192,8 +188,6 @@ input[type=text]{
 .main-container{
     display:flex;
     justify-content: space-between;
-    min-width: 992px;
-    max-width: 1200px;
     margin: auto;
     margin-bottom:20px;
 }
@@ -398,8 +392,6 @@ strong{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    min-width: 992px;
-    max-width: 1200px;
     margin: auto;
     margin-bottom: 40px;
 }
@@ -531,8 +523,6 @@ footer{
 
 .footer-container {
     display: flex;
-    min-width: 992px;
-    max-width: 1200px;
     margin: auto;
     justify-content:space-between;
 }
@@ -570,8 +560,6 @@ h2{
 /* header section */
 
     header {
-        min-width: 769px;
-        max-width: 991px;
         margin: auto;
         padding-top: 20px;
     }
@@ -585,8 +573,6 @@ h2{
     .search-container {
         display: flex;
         flex-direction: column;
-        min-width: 769px;
-        max-width: 991px;
         width:100%;
         margin: auto;
         padding-left: 20px;
@@ -617,16 +603,12 @@ h2{
     .main-container {
         flex-direction: column-reverse;
         justify-content: center; 
-        min-width: 769px;
-        max-width: 991px;
         margin: auto;
         margin-bottom: 20px;
     }
 
     .accom-container {
         width: 100%;
-        min-width: 769px;
-        max-width: 991px;
         height: 550px;
         display: flex;
         flex-direction: column;
@@ -666,8 +648,6 @@ h2{
 
     .popular-container {
         flex-direction: column;
-        min-width: 769px;
-        max-width: 991px;
         width:100%;
         margin: auto;
         border-radius: 0;
@@ -691,8 +671,6 @@ h2{
 
 /* activities */
     .activities-section {
-        min-width: 769px;
-        max-width: 991px;
         margin: auto;
         margin-bottom: 40px;
         padding-left: 15px;
@@ -702,8 +680,6 @@ h2{
 /* footer */
 
     .footer-container {
-        min-width: 769px;
-        max-width: 991px;
         margin: auto;
         justify-content: space-between;
     }
@@ -721,8 +697,6 @@ h2{
     }
     /* header */
     header{
-        min-width: 290px;
-        max-width: 768px;
         width: 100%;
         margin: auto;
         justify-content: center;
@@ -757,8 +731,6 @@ h2{
 
     /* search container */
     .search-container{
-        min-width: 290px;
-        max-width: 768px;
         height:500px;
         margin: auto;
         padding-left:30px;
@@ -778,8 +750,6 @@ h2{
     }
 
     .filters{
-        min-width: 290px;
-        max-width: 768px;
         margin: 0;
         height: 250px;
         flex-direction: column;
@@ -807,8 +777,6 @@ h2{
     /* main section */
 
     .main-container{
-        min-width: 290px;
-        max-width: 768px;
         width: 100%;
         margin: auto;
         justify-content: center;
@@ -843,8 +811,6 @@ h2{
     }
 
     .accom-container{
-        min-width: 290px;
-        max-width: 768px;
         margin: auto;
         height: fit-content;
         align-content: space-evenly;
@@ -943,15 +909,11 @@ h2{
 
     .activities-images{
         flex-direction: column;
-        min-width: 290px;
-        max-width: 768px;
         margin: auto;
         height:1400px;
     }
 
     .activities-section{
-        min-width: 290px;
-        max-width: 768px;
         margin: auto;
     }
 
@@ -960,8 +922,6 @@ h2{
 
     .footer-container{
         flex-direction: column;
-        min-width: 290px;
-        max-width: 768px;
         margin: auto;
     }
 
