@@ -5,7 +5,8 @@
     --blue: #0065fc;
     --lightblue: #deebff;
     --grey: #f2f2f2;
-    --black: #000;    
+    --black: #000; 
+    font-family: "raleway", sans-serif;
 }
 
 .container{
@@ -207,6 +208,11 @@ input[type=text]{
     background-color: var(--grey);
     border-radius: 20px;
     justify-content: space-evenly;
+}
+
+.accom-container h4{
+    font-size: 16px;
+    font-weight: 800;
 }
 
 .accom-1{
