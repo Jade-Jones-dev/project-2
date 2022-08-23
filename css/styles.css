@@ -716,15 +716,17 @@ h2{
         margin: auto;
         justify-content: center;
         flex-direction: column;
-        height: 90px;
+        height: unset;
      
     }
 
     header img{
-        margin-bottom: 30px;
-        margin-left: 0px;
+      margin-bottom: 20px;
     }
 
+    header nav{
+        width:100%;
+    }
 
     nav a {
         border-bottom: 3px solid var(--grey);
@@ -738,6 +740,17 @@ h2{
         color: var(--blue);
         border-bottom: 3px solid var(--blue);
         border-top: none;
+    }
+
+    nav li{
+        width:50%;
+    }
+
+    nav li a {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     ul {
@@ -766,11 +779,7 @@ h2{
     }
 
     .filters{
-        margin: 0;
-        height: 250px;
-        flex-direction: column;
-        flex-wrap: wrap;
-        justify-content:space-around;  
+        display: block;
     }
 
    
