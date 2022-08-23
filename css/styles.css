@@ -303,6 +303,7 @@ strong{
     height: 90%;
     flex-direction: column;
     justify-content: space-evenly;
+   
   
 }
 
@@ -341,6 +342,7 @@ strong{
     justify-content:space-around;
     width: 55%;
     padding-left: 10px;
+   
 }
 
 .popular-card img{
@@ -348,6 +350,7 @@ strong{
     object-fit: cover;
     border-radius: 20px 0px 0 20px;
     border: white solid 4px;
+    
 }
 
 .popular-card a {
