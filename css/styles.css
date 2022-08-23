@@ -611,7 +611,10 @@ h2{
 
     .filters {
         width:100%;
+        flex-wrap: nowrap;
     }
+
+
 
 /*  accom */
 
@@ -625,7 +628,6 @@ h2{
 
     .accom-container {
         width: 100%;
-        height: 550px;
         display: flex;
         flex-direction: column;
         background-color: white;
@@ -760,18 +762,29 @@ h2{
 
     /* search container */
     .search-container{
-        height:500px;
+        height: 350px;
         margin: auto;
-        padding-left:30px;
-        padding-right:30px;
         text-align: left;
-        align-content: space-evenly;
+        align-content: space-around;
         justify-content: space-evenly;
         padding-bottom: 20px;
+        margin-bottom: 10px;
+    }
+
+    .search-container h2{
+        margin-bottom: 10px;
+    }
+    .search-container p{
+        margin-bottom: 10px;
+    }
+
+    .search{
+        margin-bottom: 10px;
     }
 
     .btn{
         width:150px;
+        margin-bottom: 10px;
     }
 
     .search-container p{
@@ -780,23 +793,16 @@ h2{
 
     .filters{
         display: block;
+        
     }
 
-   
-
-  
-
-    #romantic {
-        margin-right:150px;
-    }
-
-    #pets {
-        margin-right: 150px;
+    .filters h3{
+        margin-bottom: 20px;
     }
 
     .filter-div{
         display: flex;
-        flex-direction: row;
+        flex-wrap:wrap;
     }
 
     /* main section */
@@ -810,16 +816,12 @@ h2{
     /* popular section */
 
     .popular-container{
-        min-width: 290px;
-        max-width: 768px;
         width:100%;
         margin: auto;
     }
 
     .popular-cards{
         flex-direction: column;
-        min-width: 290px;
-        max-width: 768px;
         width: 100%;
         margin: auto;
         
@@ -832,7 +834,7 @@ h2{
     /* accomodation section */
 
     #Accomodations-In-Marseille{
-        margin-left: 40px;
+        margin-bottom: 10px;
     }
 
     .accom-container{
@@ -845,20 +847,16 @@ h2{
 
     .accom-1{
         flex-direction: column;
-        height:650px;
     }
 
     .accom-2{
         flex-direction: column;
-        height: 650px;
         margin-bottom: 20px;
     }
 
     .accom-card{
-        width: 80%;
-        height: 200px;
-        margin-left: 40px;
-        margin-right: 20px;
+        width: 100%;
+        margin-bottom: 10px;
     }
 
     .accom-card img{
@@ -888,8 +886,9 @@ h2{
     /* activity section */
 
     .image1 {
-         width: 300px;
-         height: 200px;
+        width:100%;
+        height: 200px;
+        margin-bottom: 20px;
     }
         
     .image1 img {
@@ -898,8 +897,13 @@ h2{
     }
     
     .image3 {
-        width: 300px;
+        width: 100%;
         height: 200px;
+        margin-bottom: 20px;
+    }
+
+    .image2{
+        width:100%;
     }
     
     .image3 img {
@@ -908,24 +912,35 @@ h2{
     }
 
     #fort{
-        width:300px;
-        height:200px;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
+        
     }
 
     #fort img{
         width:auto;
-        height:70%;
+        height:140px;
+        
     }
 
     #island{
-        width:300px;
-        height:200px;
-        margin-bottom: 0;
+        width: 100%;
+        height: 200px;
+        margin-bottom: 20px;
     }
 
     #island img{
         width:auto;
         height: 70%;
+    }
+
+    .image4{
+        width: 100%;
+    }
+    .card{
+        width: 100%;
+        height: 200px;
     }
 
     .image2{
@@ -934,20 +949,24 @@ h2{
 
     .activities-images{
         flex-direction: column;
-        margin: auto;
-        height:1400px;
+        height: unset;
     }
 
     .activities-section{
-        margin: auto;
+        margin-bottom: 20px;
     }
 
 /* footer section */
 
 
     .footer-container{
+        margin-top: 20px;
         flex-direction: column;
         margin: auto;
+    }
+
+    .footer-column{
+        padding:20px;
     }
 
 }
