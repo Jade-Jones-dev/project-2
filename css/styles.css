@@ -47,6 +47,7 @@ ul{
     flex-direction: column;
     margin: auto;
     justify-content: space-evenly;
+    padding: 20px;
 }
 
 .search{
