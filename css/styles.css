@@ -156,11 +156,12 @@ input[type=text]{
     background-color: var(--lightblue);
     font-weight: bolder;
     border-radius: 50%;
-    height: 45px;
+    height: 40px;
     width: 45px;
     padding: 15px;
     margin-right: 20px;
     font-size: 20px;
+    margin-left: -6px;
 }
 
 .btn:hover i {
@@ -176,6 +177,10 @@ input[type=text]{
     align-items: center;
   
 }
+
+ .filters h3 {
+     padding-right: 30px;
+ }
 
 
 
@@ -522,6 +527,7 @@ strong{
 footer{
     background-color: var(--grey);
     width:100%;
+    padding: 30px 0;
 }
 
 .footer-container {
@@ -577,7 +583,6 @@ h2{
         flex-direction: column;
         width:100%;
         margin: auto;
-        padding-left: 20px;
         justify-content: space-evenly;
         text-align: center;
     }
@@ -703,6 +708,7 @@ h2{
         margin: auto;
         justify-content: center;
         flex-direction: column;
+        height: 90px;
      
     }
 
@@ -759,9 +765,9 @@ h2{
         justify-content:space-around;  
     }
 
-    .filters h3{
-        padding-right:300px;
-    }
+   
+
+  
 
     #romantic {
         margin-right:150px;
