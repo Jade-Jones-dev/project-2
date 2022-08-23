@@ -15,6 +15,10 @@
     margin:auto;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* header section */
 
 header {
@@ -339,9 +343,11 @@ strong{
 .popular-card-text{
     display: flex;
     flex-direction:column;
-    justify-content:space-around;
+    justify-content:space-between;
     width: 55%;
-    padding-left: 10px;
+    padding: 10px;
+    color: var(--black);
+   
    
 }
 
@@ -381,15 +387,18 @@ strong{
 
 .four-stars i:last-child{
     color: var(--grey);
+    text-decoration: none;
 }
 
 .three-stars{
     color: var(--blue);
     padding-left: 10px;
+    text-decoration: none;
 }
 
 .three-stars i:last-child{
     color: var(--grey);
+    text-decoration: none;
     
 }
 
