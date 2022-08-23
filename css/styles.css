@@ -30,7 +30,6 @@ header {
 
 nav a {
     text-decoration: none;
-    font-family: "raleway", sans-serif;
     padding: 30px 20px 0px 20px;
     color: var(--black);
 }
@@ -103,7 +102,6 @@ input[type=text]{
 }
 
 ::placeholder{
-    font-family: "raleway", sans-serif;
     font-weight: bolder;
     font-size: 15px;
     color: var(--black);
@@ -142,7 +140,6 @@ input[type=text]{
     border-radius: 30px;
     border: solid 1px var(--grey);
     margin-right: 20px;
-    font-family: "raleway", sans-serif;
     font-weight: bolder;
     font-size: 15px;
     padding-right: 15px;
@@ -213,6 +210,7 @@ input[type=text]{
 .accom-container h4{
     font-size: 16px;
     font-weight: 800;
+    padding-left: 10px;
 }
 
 .accom-1{
@@ -259,7 +257,6 @@ input[type=text]{
 .accom-card a{
     text-decoration: none;
     padding-left:10px;
-    font-family: "raleway", sans-serif;
     font-weight: bolder;
     font-size: 18px;
     color: var(--black);
@@ -276,9 +273,6 @@ input[type=text]{
     border-radius: 20px 20px 0px 0px;
 }
 
-.accom-card h3 {
-    padding-left: 10px;
-}
 
 .accom-card p{
     padding-left: 10px;
@@ -358,7 +352,6 @@ strong{
 
 .popular-card a {
     text-decoration: none;
-    font-family: "raleway", sans-serif;
     font-weight: bolder;
     font-size: 18px;
     color: var(--black);
@@ -551,19 +544,16 @@ footer{
 
 h3 {
     font-weight: bold;
-    font-family: 'Raleway', sans-serif;
     text-align: left;
 }
 
 p {
     color: var(--black);
-    font-family: 'Raleway', sans-serif;
     text-align: left;
 }
 
 h2{
     font-weight: bold;
-    font-family: 'Raleway', sans-serif;
     font-size: 20px;
 }
 
