@@ -108,10 +108,13 @@ input[type=text]{
     color: var(--black);
 }
 
+.filter-div{
+    display: flex;
+}
+
 .info{
     display: flex;
-    width:38%;
-    flex-direction: row;
+
     align-items: center;
 }
 
@@ -133,15 +136,15 @@ input[type=text]{
     display: flex;
     flex-direction: row;
     background-color: white;
-    width: 185px;
     height: 40px;
     align-items: center;
     border-radius: 30px;
     border: solid 1px var(--grey);
-    padding-left:0;
+    margin-right: 20px;
     font-family: "raleway", sans-serif;
     font-weight: bolder;
     font-size: 15px;
+    padding-right: 15px;
 
 }
 
@@ -170,10 +173,8 @@ input[type=text]{
 
 .filters{
     display: flex;
-    flex-direction: row;
     align-items: center;
-    width:70%;
-    justify-content: space-around;
+  
 }
 
 
@@ -533,8 +534,7 @@ footer{
     display: flex;
     flex-direction:column;
     line-height: 20pt;
-    padding: 20px;
-    width: 100%; 
+    width: 32%; 
 }
 
 h3 {
@@ -683,7 +683,6 @@ h2{
 /* footer */
 
     .footer-container {
-        margin: auto;
         justify-content: space-between;
     }
 
