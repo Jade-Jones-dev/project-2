@@ -5,7 +5,13 @@
     --blue: #0065fc;
     --lightblue: #deebff;
     --grey: #f2f2f2;
-    --black: #000;
+    --black: #000;    
+}
+
+.container{
+    max-width: 1200px;
+    padding: 20px;
+    margin:auto;
 }
 
 /* header section */
@@ -14,8 +20,6 @@ header {
    display: flex;
    justify-content: space-between;
    align-items: center;
-   margin: auto;
-   padding: 20px;
 }
 
 .header-image{
@@ -45,9 +49,8 @@ ul{
     height: 280px;
     display: flex;
     flex-direction: column;
-    margin: auto;
     justify-content: space-evenly;
-    padding: 20px;
+  
 }
 
 .search{
@@ -188,7 +191,6 @@ input[type=text]{
 .main-container{
     display:flex;
     justify-content: space-between;
-    margin: auto;
     margin-bottom:20px;
 }
 
@@ -605,6 +607,7 @@ h2{
         justify-content: center; 
         margin: auto;
         margin-bottom: 20px;
+        padding: 20px;
     }
 
     .accom-container {
