@@ -147,7 +147,6 @@ input[type=text]{
     font-weight: bolder;
     font-size: 15px;
     padding-right: 15px;
-
 }
 
 .btn i {
@@ -176,23 +175,12 @@ input[type=text]{
 
 .filters{
     display: flex;
-    align-items: center;
-  
+    align-items: center;  
 }
 
  .filters h3 {
      padding-right: 30px;
- }
-
-
-
-/*  .filter-div {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     width: 40%;
- }*/
-
+}
 
 /*  accom */
 
@@ -306,9 +294,7 @@ strong{
     display: flex;
     height: 90%;
     flex-direction: column;
-    justify-content: space-evenly;
-   
-  
+    justify-content: space-evenly; 
 }
 
 .heading-text{
@@ -398,8 +384,7 @@ strong{
 
 .three-stars i:last-child{
     color: var(--grey);
-    text-decoration: none;
-    
+    text-decoration: none;    
 }
 
 .three-stars i:nth-last-child(2){
@@ -487,8 +472,7 @@ strong{
     flex-direction: column;
     background-color: white;
     width:23%;
-    justify-content: space-between;
-  
+    justify-content: space-between; 
 }
 
 #island{
@@ -712,6 +696,7 @@ h2{
     html, body{
        overflow-x: hidden;
     }
+
     /* header */
     header{
         width: 100%;
@@ -719,7 +704,6 @@ h2{
         justify-content: center;
         flex-direction: column;
         height: unset;
-     
     }
 
     header img{
