@@ -9,6 +9,8 @@
     font-family: "raleway", sans-serif;
 }
 
+/* main instead of div, left align and backslash on images and inputs */
+
 .container{
     max-width: 1200px;
     padding: 20px;
