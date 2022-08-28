@@ -789,7 +789,6 @@ h2{
 
     .filter-div{
         display: flex;
-        flex-wrap:wrap;
     }
 
   .search{
