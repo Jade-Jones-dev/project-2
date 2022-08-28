@@ -792,10 +792,13 @@ h2{
         flex-wrap:wrap;
     }
 
+  .search{
+       justify-content: left;
+    }
+
     /* main section */
 
     .main-container{
-        width: 100%;
         margin: auto;
         justify-content: center;
     }
@@ -959,6 +962,7 @@ h2{
 
     .footer-column{
         padding:20px;
+        width: 100%;
     }
 
 }
