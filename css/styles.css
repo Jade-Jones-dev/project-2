@@ -9,8 +9,6 @@
     font-family: "raleway", sans-serif;
 }
 
-/* main instead of div, left align and backslash on images and inputs */
-
 .container{
     max-width: 1200px;
     padding: 20px;
@@ -503,8 +501,7 @@ strong{
     width:100%;
     background-color: white;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    border-radius: 20px 20px 20px 20px;  
-  
+    border-radius: 20px 20px 20px 20px;    
 }
 
 .card img{
@@ -687,7 +684,6 @@ h2{
     .footer-container {
         justify-content: space-between;
     }
-
 }
 
 /* media queries for mobile phones max width 768px */
@@ -812,8 +808,7 @@ h2{
     .popular-cards{
         flex-direction: column;
         width: 100%;
-        margin: auto;
-        
+        margin: auto;    
     }
 
     .popular-card{
@@ -913,8 +908,7 @@ h2{
 
     #fort img{
         width:auto;
-        height:140px;
-        
+        height:140px;    
     }
 
     #island{
@@ -963,5 +957,4 @@ h2{
         padding:20px;
         width: 100%;
     }
-
 }
