@@ -626,6 +626,8 @@ h2{
         width: 100%;
         height: 38%;
         justify-content: space-evenly;
+        margin-bottom: 20px;
+        margin-top: 20px;
     }
 
     .accom-2 {
@@ -634,6 +636,7 @@ h2{
         width: 100%;
         height: 38%;
         justify-content: space-evenly;
+        margin-bottom: 20px;
     }
 
     .accom-card {
@@ -831,6 +834,7 @@ h2{
 
     .accom-1{
         flex-direction: column;
+        margin-bottom: 0;
     }
 
     .accom-2{
