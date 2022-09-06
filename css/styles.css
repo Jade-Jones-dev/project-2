@@ -80,23 +80,6 @@ ul{
      border-radius: 10px 0px 0px 10px;
 }
 
-input[type=submit] {
-    background-color: var(--blue);
-    color: white;
-    padding: 10px;
-    border: none;
-    cursor: pointer;
-    float: right;
-    font-size:18px;
-    font-weight: bold;
-    border-radius: 0px 10px 10px 0px;
-}
-
-input[type=submit]:hover {
-    background-color: var(--lightblue);
-    color: var(--blue);
-}
-
 input[type=text]{
     padding-top: 11px;
     padding-bottom:11px;
@@ -120,6 +103,33 @@ input[type=text]{
 
     align-items: center;
 }
+
+ .style-button i{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+     display: none;
+     color: white;
+     background-color: var(--blue);
+     font-size: 14px;
+     padding: 10px 20px
+
+
+ }
+
+ .style-button{
+    height: 39px;
+    background-color: var(--blue);
+    border: none;
+    border-radius: 0 10px 10px 0;
+ }
+
+ .style-button-text{
+    font-size:14px;
+    padding: 0 10px;
+    color:white;
+    font-weight: bold;
+ }
 
 .info i{
     display:flex;
@@ -570,6 +580,7 @@ h2{
 
  /* search */
 
+   
     .search-container {
         display: flex;
         flex-direction: column;
@@ -771,6 +782,10 @@ h2{
         margin-bottom: 10px;
     }
 
+         .style-button i {
+             display: unset;
+         }
+
     .search-container p{
         text-align: left;
     }
@@ -778,6 +793,10 @@ h2{
     .filters{
         display: block;
         
+    }
+
+    .style-button-text{
+        display:none;
     }
 
     .filters h3{
